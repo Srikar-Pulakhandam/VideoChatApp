@@ -1,0 +1,103 @@
+.title{
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+    margin: -10px;
+}
+.container{
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+    height:500px;
+    border: none;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 1px 1px 15px #7385a1;
+    
+}
+
+.left{
+    border: 1px solid lightcoral;
+    display: flex;
+    font-family: cursive;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    border-top-left-radius: 20px;
+}
+.right{
+    border: 1px solid lightcoral;
+    display: flex;
+    font-family: cursive;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    border-top-right-radius: 20px;
+}
+
+
+.right video{
+    width: 100%;
+    height: 100%;
+    position: relative !important;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    height: 80px;
+    margin-top: -10px;
+}
+
+.but1{
+    font-size: 35px;
+    font-family:cursive;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: transparent;
+    width: 160px;
+    border: none;
+    box-shadow: 2px 1px 5px #e5e7ea;
+    border-radius: 60px;
+}
+.but1:hover{
+    background-color: rgb(167, 0, 0);
+    box-shadow: 2px 1px 5px #e5e7ea;
+    color: paleturquoise;
+    cursor: pointer;
+}
+.but2{
+    font-size: 35px;
+    font-family:cursive;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: transparent;
+    width: 160px;
+    border: none;
+    box-shadow: 2px 1px 5px #e5e7ea;
+    border-radius: 60px;
+}
+.but2:hover{
+    background-color: rgb(167, 0, 0);
+    box-shadow: 2px 1px 5px #e5e7ea;
+    color: paleturquoise;
+    cursor: pointer;
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: cursive;
+    color: rgb(182, 55, 50);
+}
+.text:hover{
+    box-shadow:powderblue;
+    cursor: pointer;
+}
